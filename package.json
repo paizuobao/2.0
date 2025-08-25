@@ -1,0 +1,25 @@
+{
+  "name": "pai-pai-seating-chart",
+  "version": "1.0.0",
+  "description": "派派座位表 - 智能座位安排系统",
+  "main": "app.js",
+  "scripts": {
+    "build": "node build.js",
+    "build:protect": "node build.js && echo '保护版本构建完成'",
+    "serve": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "seating",
+    "classroom",
+    "education",
+    "arrangement"
+  ],
+  "author": "派派座位表团队",
+  "license": "Copyright © 2025 派派座位表 - 版权所有",
+  "homepage": "https://paizuobao.asia/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paizuobao/1.10.git"
+  }
+}
